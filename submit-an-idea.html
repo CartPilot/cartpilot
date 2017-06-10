@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>CartPilot | Bring Your Product to Life</title>
+                    <link href="css/bootstrap.min.css" rel="stylesheet">
+                        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                        <!--[if lt IE 9]>
+                         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                         <![endif]-->
+                        </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">CartPilot</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/index.html">Explore<span class="sr-only">(current)</span></a></li>
+                        <li><a href="/submit-an-idea.html">Submit an Idea</a></li>
+                        <li><a href="/about-us.html">About Us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <br></br>
+                <br></br>
+                <h1>We love big ideas.</h1>
+                <p>Want to share yours? Drop us a line!</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                <br></br>
+                <br></br>
+            </div>
+        </div>
+        <div class="span12">
+            <a name="explore"></a><h3>What's new</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><div id='product-component-dc3c3d29ac4'></div>
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    
+                    (function () {
+                     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                     if (window.ShopifyBuy) {
+                     if (window.ShopifyBuy.UI) {
+                     ShopifyBuyInit();
+                     } else {
+                     loadScript();
+                     }
+                     } else {
+                     loadScript();
+                     }
+                     
+                     function loadScript() {
+                     var script = document.createElement('script');
+                     script.async = true;
+                     script.src = scriptURL;
+                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                     script.onload = ShopifyBuyInit;
+                     }
+                     
+                     function ShopifyBuyInit() {
+                     var client = ShopifyBuy.buildClient({
+                                                         domain: 'powerdecal.myshopify.com',
+                                                         apiKey: 'e91ed5a654ec6e0692208e7c45480a77',
+                                                         appId: '6',
+                                                         });
+                     
+                     ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                                        ui.createComponent('product', {
+                                                                           id: [307228911],
+                                                                           node: document.getElementById('product-component-dc3c3d29ac4'),
+                                                                           moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                                                           options: {
+                                                                           "product": {
+                                                                           "variantId": "all",
+                                                                           "contents": {
+                                                                           "imgWithCarousel": false,
+                                                                           "variantTitle": false,
+                                                                           "description": false,
+                                                                           "buttonWithQuantity": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "calc(25% - 20px)",
+                                                                           "margin-left": "20px",
+                                                                           "margin-bottom": "50px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "cart": {
+                                                                           "contents": {
+                                                                           "button": true
+                                                                           },
+                                                                           "styles": {
+                                                                           "footer": {
+                                                                           "background-color": "#ffffff"
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "modalProduct": {
+                                                                           "contents": {
+                                                                           "img": false,
+                                                                           "imgWithCarousel": true,
+                                                                           "variantTitle": false,
+                                                                           "buttonWithQuantity": true,
+                                                                           "button": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "100%",
+                                                                           "margin-left": "0px",
+                                                                           "margin-bottom": "0px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "productSet": {
+                                                                           "styles": {
+                                                                           "products": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "margin-left": "-20px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           });
+                                                        });
+                     }
+                     })();
+                     /*]]>*/
+                    </script></div>
+            <div class="col-md-4"><div id='product-component-e6e037cfb16'></div>
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    
+                    (function () {
+                     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                     if (window.ShopifyBuy) {
+                     if (window.ShopifyBuy.UI) {
+                     ShopifyBuyInit();
+                     } else {
+                     loadScript();
+                     }
+                     } else {
+                     loadScript();
+                     }
+                     
+                     function loadScript() {
+                     var script = document.createElement('script');
+                     script.async = true;
+                     script.src = scriptURL;
+                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                     script.onload = ShopifyBuyInit;
+                     }
+                     
+                     function ShopifyBuyInit() {
+                     var client = ShopifyBuy.buildClient({
+                                                         domain: 'voyadesk.myshopify.com',
+                                                         apiKey: 'fd7c9532c4b37a9efa03f97663999bc5',
+                                                         appId: '6',
+                                                         });
+                     
+                     ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                                        ui.createComponent('product', {
+                                                                           id: [9361922564],
+                                                                           node: document.getElementById('product-component-e6e037cfb16'),
+                                                                           moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                                                           options: {
+                                                                           "product": {
+                                                                           "variantId": "all",
+                                                                           "contents": {
+                                                                           "imgWithCarousel": false,
+                                                                           "variantTitle": false,
+                                                                           "description": false,
+                                                                           "buttonWithQuantity": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "calc(25% - 20px)",
+                                                                           "margin-left": "20px",
+                                                                           "margin-bottom": "50px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "cart": {
+                                                                           "contents": {
+                                                                           "button": true
+                                                                           },
+                                                                           "styles": {
+                                                                           "footer": {
+                                                                           "background-color": "#ffffff"
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "modalProduct": {
+                                                                           "contents": {
+                                                                           "img": false,
+                                                                           "imgWithCarousel": true,
+                                                                           "variantTitle": false,
+                                                                           "buttonWithQuantity": true,
+                                                                           "button": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "100%",
+                                                                           "margin-left": "0px",
+                                                                           "margin-bottom": "0px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "productSet": {
+                                                                           "styles": {
+                                                                           "products": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "margin-left": "-20px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           });
+                                                        });
+                     }
+                     })();
+                     /*]]>*/
+                    </script></div>
+            <div class="col-md-4"><div id='product-component-f9a39008370'></div>
+                <script type="text/javascript">
+                    /*<![CDATA[*/
+                    
+                    (function () {
+                     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                     if (window.ShopifyBuy) {
+                     if (window.ShopifyBuy.UI) {
+                     ShopifyBuyInit();
+                     } else {
+                     loadScript();
+                     }
+                     } else {
+                     loadScript();
+                     }
+                     
+                     function loadScript() {
+                     var script = document.createElement('script');
+                     script.async = true;
+                     script.src = scriptURL;
+                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                     script.onload = ShopifyBuyInit;
+                     }
+                     
+                     function ShopifyBuyInit() {
+                     var client = ShopifyBuy.buildClient({
+                                                         domain: 'aerotrap.myshopify.com',
+                                                         apiKey: 'f8fb0966b5f5505e1f8d0c6207309e51',
+                                                         appId: '6',
+                                                         });
+                     
+                     ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                                        ui.createComponent('product', {
+                                                                           id: [5612495171],
+                                                                           node: document.getElementById('product-component-f9a39008370'),
+                                                                           moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                                                           options: {
+                                                                           "product": {
+                                                                           "variantId": "all",
+                                                                           "contents": {
+                                                                           "imgWithCarousel": false,
+                                                                           "variantTitle": false,
+                                                                           "description": false,
+                                                                           "buttonWithQuantity": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "calc(25% - 20px)",
+                                                                           "margin-left": "20px",
+                                                                           "margin-bottom": "50px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "cart": {
+                                                                           "contents": {
+                                                                           "button": true
+                                                                           },
+                                                                           "styles": {
+                                                                           "footer": {
+                                                                           "background-color": "#ffffff"
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "modalProduct": {
+                                                                           "contents": {
+                                                                           "img": false,
+                                                                           "imgWithCarousel": true,
+                                                                           "variantTitle": false,
+                                                                           "buttonWithQuantity": true,
+                                                                           "button": false,
+                                                                           "quantity": false
+                                                                           },
+                                                                           "styles": {
+                                                                           "product": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "max-width": "100%",
+                                                                           "margin-left": "0px",
+                                                                           "margin-bottom": "0px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           },
+                                                                           "productSet": {
+                                                                           "styles": {
+                                                                           "products": {
+                                                                           "@media (min-width: 601px)": {
+                                                                           "margin-left": "-20px"
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           }
+                                                                           });
+                                                        });
+                     }
+                     })();
+                     /*]]>*/
+                    </script></div>
+            </div>
+        <div class="container-fluid">
+            <p class="text-center"><a class="btn btn-primary btn-lg" href="/products.html" role="button">Explore</a>
+            </div>
+        </div>
+        <div>
+            <h3>What's next</h3>
+        </div>
+        <div class="container">
+            <div>
+                <h1 class="text-center">Our product submissions all come from you.</h1>
+                <p class="text-center">If you're looking to test the waters or launch the next big thing, we're interested.</p>
+                <p class="text-center"><a class="btn btn-primary btn-lg" href="/submit.html" role="button">Submit an idea</a>
+            </div>
+        </div>
+            <h3>About Us</h3>
+        <div class="container">
+            <h1 class="text-center">We're a team of tireless product experts.</h1>
+                <p class="text-center">Hear what we have to say.</p>
+                <p class="text-center"><a class="btn btn-primary btn-lg" href="/about-us.html" role="button">Our story</a>
+        </div>
+            <footer class="container">
+                <p class="text-right">© Copyright 2017 CartPilot, Inc.</p>
+            </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
