@@ -20,9 +20,15 @@
       location = "group:careers.html">
    </FileRef>
    <FileRef
+      location = "group:log-in.html">
+   </FileRef>
+   <FileRef
       location = "group:register.html">
    </FileRef>
    <FileRef
-      location = "group:log-in.html">
+      location = "group:privacy-policy.html">
+   </FileRef>
+   <FileRef
+      location = "group:terms-of-use.html">
    </FileRef>
 </Workspace>
