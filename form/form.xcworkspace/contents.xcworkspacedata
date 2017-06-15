@@ -13,4 +13,10 @@
    <FileRef
       location = "group:form-images.html">
    </FileRef>
+   <FileRef
+      location = "group:form-ip.html">
+   </FileRef>
+   <FileRef
+      location = "group:form-variants.html">
+   </FileRef>
 </Workspace>
