@@ -19,4 +19,10 @@
    <FileRef
       location = "group:form-variants.html">
    </FileRef>
+   <FileRef
+      location = "group:form-sources.html">
+   </FileRef>
+   <FileRef
+      location = "group:form-specs.html">
+   </FileRef>
 </Workspace>

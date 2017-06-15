@@ -41,28 +41,34 @@
             <li role="presentation"><a href="/form/form-brand.html">Brand</a></li>
             <li role="presentation"><a href="/form/form-descriptions.html">Description</a></li>
             <li role="presentation"><a href="/form/form-images.html">Images</a></li>
-            <li role="presentation" class="active"><a href="/form/form-ip.html">IP</a></li>
+            <li role="presentation"><a href="/form/form-ip.html">IP</a></li>
             <li role="presentation"><a href="/form/form-variants.html">Variants</a></li>
             <li role="presentation"><a href="/form/form-sources.html">Sources</a></li>
-            <li role="presentation"><a href="/form/form-specs.html">Specs</a></li>
+            <li role="presentation" class="active"><a href="/form/form-specs.html">Specs</a></li>
         </ul>
-        <h3>Intellectual Property</h3>
+        <h3>Specs</h3>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <form>
-                    <div class="checkbox">
-                        <label><input type="checkbox" value="">Trademark?</label>
-                        <p><input placeholder="Reg. trademark no."></input></p>
-                        <p><a href="http://tmsearch.uspto.gov/bin/gate.exe?f=tess&state=4805:rdoh3z.1.1">Lookup</a></p>
-                        <label><input type="checkbox" value="">Patent?</label>
-                        <p><input placeholder="Reg. patent no."></input></p>
-                        <p><input placeholder="Reg. patent no."></input></p>
-                        <p><input placeholder="Reg. patent no."></input></p>
-                        <p><a href="#">Add</a></p>
-                        <p><a href="http://patft.uspto.gov/netahtml/PTO/search-bool.html">Lookup</a></p>
+                <p>FOB Price</p>
+                <span class="input-group-addon">$</span><input type="price" class="form-control" id="price" placeholder="10" min="0">
+                <p>Case Pack (Quantity in Carton)</p>
+                <input type="number" class="form-control" id="casepack" placeholder="8" min="0">
+                <p>Carton Size</p>
+                    <div class="form-group form-inline">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="Length (in.)">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="Width (in.)">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="Height (in.)">
                     </div>
-                    <a href="/form/form-images.html"><button type="button" class="btn btn-default form-control">Back</button></a>
-                    <a href="/form/form-variants.html"><button type="button" class="btn btn-default form-control">Next</button></a>
+                <p>Load Quantity</p>
+                    <div class="form-group form-inline">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="20 ft.">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="40 ft.">
+                        <input type="number" class="form-control" id="cartonLength" min="0" placeholder="40 ft. HQ">
+                                    </div>
+                    <p><a href="#">Add</a></p>
+                    <a href="/form/form-variants.html"><button type="button" class="btn btn-default form-control">Back</button></a>
+                    <a href="#"><button type="button" class="btn btn-default form-control">Submit</button></a>
                 </form>
                 </body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
