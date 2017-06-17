@@ -1,0 +1,41 @@
+body {
+    padding-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+
+.caption {
+	position:absolute;
+	bottom:0;
+}
+
+#currentprods {
+	height: 550px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width:1px;
+	margin:10px;
+}
+
+.thumbnail {
+	border:none;
+}
