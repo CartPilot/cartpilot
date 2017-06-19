@@ -4,8 +4,8 @@
 body {
     color: #555;
     font-family: "Montserrat", "Anton", "Arial", sans-serif;
-    background: #F3F3F3;
-    padding-top: 40px;
+    background: white;
+    padding-top: 50px;
 }
 
 .container {
@@ -15,6 +15,7 @@ body {
     width: 100%;
     background-color: white;
 }
+
 .container-alt {
     position: relative;
     margin: 0;
@@ -120,6 +121,10 @@ body {
     color: #555f61;
 
 }
+.btn-space {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 a.btn:hover {
     background-color: #555f61;
@@ -131,4 +136,9 @@ a.btn:hover {
         bottom: 0;
         margin-bottom: 0;
         border-width: 0 0 1px;
+}
+
+.page-header {
+    padding-bottom: 0px;
+    border-width: 0 0 0px;
 }
