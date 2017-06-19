@@ -15,6 +15,13 @@ body {
     width: 100%;
     background-color: white;
 }
+.container-alt {
+    position: relative;
+    margin: 0;
+    padding: 0 10%;
+    width: 100%;
+    background-color: #F3F3F3;
+}
 
 .flexbox-container {
 	display: -ms-flex;
@@ -37,11 +44,12 @@ body {
 }
 
 #currentprods {
-	height: 550px;
+	height: 480px;
 	border-style: solid;
 	border-color: #d3d3d3;
 	border-width:1px;
-	margin:10px;
+    border-radius: 5px;
+	margin:20px;
 }
 
 .thumbnail {
@@ -87,8 +95,8 @@ body {
   font-size: 24px;
   font-weight: 300;
   left: 10%;
-  top: 10%;
-    width: 40%;
+  top: 50%;
+    width: 50%;
 }
 
 .h1 {
@@ -110,10 +118,17 @@ body {
     border-width: 1;
     border-color: #555f61;
     color: #555f61;
+
 }
 
 a.btn:hover {
     background-color: #555f61;
     color: whitesmoke;
     border-color: #555f61;
+}
+
+.navbar-bottom {
+        bottom: 0;
+        margin-bottom: 0;
+        border-width: 0 0 1px;
 }
