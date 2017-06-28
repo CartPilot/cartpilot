@@ -6,6 +6,7 @@ body {
     font-family: "Montserrat", "Anton", "Arial", sans-serif;
     background: white;
     padding-top: 50px;
+    background-color: #aeecef;
 }
 
 .container {
@@ -27,36 +28,36 @@ body {
 }
 
 .flexbox-container {
-	display: -ms-flex;
-	display: -webkit-flex;
-	display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .flexbox-container > div {
-	width: 50%;
-	padding: 10px;
+    width: 50%;
+    padding: 10px;
 }
 
 .flexbox-container > div:first-child {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .caption {
-	position:absolute;
-	bottom:0;
+    position:absolute;
+    bottom:0;
 }
 
 #currentprods {
-	height: 480px;
-	border-style: solid;
-	border-color: #d3d3d3;
-	border-width:1px;
+    height: 480px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width:1px;
     border-radius: 5px;
-	margin:20px;
+    margin:20px;
 }
 
 .thumbnail {
-	border:none;
+    border:none;
 }
 
 .jumbotron {
@@ -66,40 +67,20 @@ body {
     bottom: 0;
     left: 0;
     overflow: hidden;
-    z-index: -100;
-}
-
-.jumbotron__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    top:-10%;
-    opacity: 0.8;
-}
-@media (min-aspect-ratio: 16/9) {
-  .jumbotron__video {
-    height: 300%;
-      top: -110%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .jumbotron__video {
-      width:300%;
-      left:-100%;
-  }
+    background: url('/static/images/barcaport web.jpg') 100% 0 fixed, linear-gradient(rgba(58, 164, 255, 0.9), rgba(0, 103, 145, 0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: contain;
 }
 
 .inside {
-  position: relative;
-  color: #555f61;
-  font-size: 24px;
-  font-weight: 300;
-  left: 10%;
-  top: 50%;
-  width: 50%;
+    position: relative;
+    color: #555f61;
+    font-size: 24px;
+    font-weight: 300;
+    left: 10%;
+    top: 50%;
+    width: 50%;
 }
 
 .h1 {
@@ -121,7 +102,7 @@ body {
     border-width: 1;
     border-color: #555f61;
     color: #555f61;
-
+    
 }
 .btn-space {
     margin-top: 50px;
@@ -141,18 +122,103 @@ a.btn:hover {
 }
 
 .navbar {
+    background-color: white;
     color: #1c2826;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
     
 }
 
 .navbar-bottom {
-        bottom: 0;
-        margin-bottom: 0;
-        border-width: 0 0 1px;
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 0 0 1px;
 }
 
 .page-header {
     padding-bottom: 0px;
     border-width: 0 0 0px;
     background: white;
+}
+
+.container-idea-submission {
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+
+.container-idea-submission h1 {
+    font-size: 20px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #119da4;
+}
+.container-idea-submission h2 {
+    font-size: 75px;
+    font-family: Georgia;
+}
+
+.form-submission-table {
+    padding:25px 25%;
+}
+
+.submission-table {
+    text-align: left;
+}
+
+.success {
+    margin-bottom: 200px;
+    font-size: 20px;
+    color:#555;
+}
+
+.submission-table td, th {
+    padding: 5px 0;
+}
+
+
+.submission-table tr {
+    border-bottom-style: solid;
+    border-width:1px;
+    border-color: lightgrey;
+}
+
+.jumbotron h1 {
+    display:inline-block;
+    color:#ffffff;
+    font-family: Georgia;
+    font-size: 70px;
+}
+
+.jumbotron h4 {
+    display:inline-block;
+    color:#ffffff;
+    font-family:Montserrat;
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+.btn-filled {
+    background-color:#ffffff;
+    color:#119da4;
+    border-style:solid;
+    border-width:1px;
+    border-color:#ffffff;
+}
+
+a.btn-filled:hover {
+    background-color: rgba(255,255,255,0.8);
+    border-style: solid;
+    color:#119da4;
+    border-color:#ffffff;
+    border-width:1px;
+}
+
+.navbar-brand {
+    height:24px;
+}
+
+.social-icon {
+    margin-right: 16px;
+    margin-top: 16px;
 }
