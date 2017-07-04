@@ -14,9 +14,18 @@ body {
     margin: 0;
     padding: 0 10%;
     width: 100%;
-    background-color: #aeecef;
+    background-color: white;
 }
 
+.container-alt {
+    position: relative;
+    margin: 0;
+    padding: 0 10%;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .flexbox-container {
     display: -ms-flex;
@@ -212,5 +221,4 @@ a.btn-filled:hover {
 .social-icon {
     margin-right: 16px;
     margin-top: 16px;
-    color: white;
 }
